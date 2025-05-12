@@ -27,7 +27,7 @@ public class Sanatorio {
             Pediatricos p1 = new Pediatricos(DNIP, nombreP,  obrasocialP, pesoP, celularP, tutorP);
             
             
-            System.out.println(" Ingreso de paciente Adulto ");
+            System.out.println(" Ingreso de paciente Adultos ");
             System.out.print("DNI: ");
             String DNIA = Scanner.nextLine();
             System.out.print("nombre: ");
@@ -45,7 +45,7 @@ public class Sanatorio {
             Adultos a1 = new Adultos(DNIA, nombreA, obrasocialA, presionartirialA, alturaA, pesoA);
             
             
-            System.out.println(" Ingreso de paciente Internado ");
+            System.out.println(" Ingreso de paciente Internados ");
             System.out.print("DNI: ");
             String DNII = Scanner.nextLine();
             System.out.print("Nombre: ");
@@ -62,8 +62,8 @@ public class Sanatorio {
             
             Internados i1 = new Internados(DNII, nombreI, obrasocialI, habitacionI, presionarterialI, rhI);
             
-            // Mostrar datos
-            System.out.println("\n--- DATOS DE LOS PACIENTES ---\n");
+            
+            System.out.println("DATOS DE LOS PACIENTES ");
             
             p1.mostrardatos();
             System.out.println(p1.coberturadelaobrasocial());
