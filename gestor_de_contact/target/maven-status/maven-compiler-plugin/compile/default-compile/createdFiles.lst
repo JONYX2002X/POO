@@ -1,0 +1,8 @@
+com\mycompany\gestor_de_contact\Gestor_de_contact.class
+dao\ContactoDAO.class
+dao\DAO.class
+vista\ContactoVista.class
+modelo\Contacto.class
+Main\Main.class
+controlador\ContactoController.class
+factory\Factory.class
